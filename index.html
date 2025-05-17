@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>알카노이드 게임</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>알카노이드 게임</h1>
+        <div class="game-stats">
+            <span>점수: <span id="score">0</span></span>
+            <span>목숨: <span id="lives">3</span></span>
+        </div>
+        <canvas id="gameCanvas" width="520" height="320"></canvas>
+        <div class="controls">
+            <button id="startButton">시작하기</button>
+            <p>조작법: 마우스나 왼쪽/오른쪽 화살표 키로 패들을 움직이세요</p>
+        </div>
+        <div class="mobile-controls">
+            <button id="leftBtn" class="control-btn">◀</button>
+            <button id="rightBtn" class="control-btn">▶</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
